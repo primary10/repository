@@ -1,0 +1,14 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Jul 20 09:24:17 CST 2017
+@default-public-http\://192.168.0.87\:8081/content/groups/public/.lastUpdated=1493002425530
+http\://192.168.0.87\:8081/nexus/content/groups/public/.error=
+http\://192.168.0.184\:8081/nexus/content/groups/public/.error=Could not transfer artifact qrcode\:qrcode\:jar\:1.0.1 from/to public (http\://192.168.0.184\:8081/nexus/content/groups/public/)\: Connect to 192.168.0.184\:8081 [/192.168.0.184] failed\: \u62D2\u7EDD\u8FDE\u63A5
+@default-public-http\://192.168.0.184\:8081/nexus/content/groups/public/.lastUpdated=1490162118796
+http\://192.168.0.88\:8081/content/groups/public/.error=Could not transfer artifact qrcode\:qrcode\:jar\:1.0.1 from/to public (http\://192.168.0.88\:8081/content/groups/public/)\: \u6CA1\u6709\u5230\u4E3B\u673A\u7684\u8DEF\u7531
+http\://192.168.0.87\:8081/nexus/content/groups/public/.lastUpdated=1500513857171
+http\://192.168.0.87\:8081/content/groups/public/.error=Could not transfer artifact qrcode\:qrcode\:jar\:1.0.1 from/to public (http\://192.168.0.87\:8081/content/groups/public/)\: Connect to 192.168.0.87\:8081 [/192.168.0.87] failed\: \u62D2\u7EDD\u8FDE\u63A5
+@default-public-http\://192.168.0.88\:8081/content/groups/public/.lastUpdated=1493015233739
+https\://repo.maven.apache.org/maven2/.lastUpdated=1500513857692
+https\://repo.maven.apache.org/maven2/.error=
+http\://192.168.0.87\:8081/nexus/.lastUpdated=1493014323513
+http\://192.168.0.87\:8081/nexus/.error=

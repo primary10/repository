@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>soul</artifactId>
+        <groupId>org.soul</groupId>
+        <version>1.0.7.3-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>soul-service</artifactId>
+
+    <dependencies>
+        <!--<dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-monitor</artifactId>
+            <version>${soul.version}</version>
+        </dependency>-->
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-release-log</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-mq</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-iservice</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-data</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-servlet_3.0_spec</artifactId>
+        </dependency>
+
+        <!-- shiro change 'shiro-all' -->
+        <!--<dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-quartz</artifactId>
+            <version>${shiro.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.opensymphony.quartz</groupId>
+                    <artifactId>quartz</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>-->
+        <!-- shiro change 'shiro-all' -->
+
+        <!-- rocketmq-client begin-->
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+        </dependency>
+        <!-- rocketmq-client end-->
+
+        <!-- rocketmq-tools begin-->
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-tools</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- rocketmq-tools end-->
+
+        <!--dubbo tool-->
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-dubbo-consumer</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

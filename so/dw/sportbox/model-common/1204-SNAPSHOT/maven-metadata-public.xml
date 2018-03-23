@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>so.dw.sportbox</groupId>
+  <artifactId>model-common</artifactId>
+  <version>1204-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20171206.063626</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20171206063626</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1204-20171206.063626-2</value>
+        <updated>20171206063626</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1204-20171206.063626-2</value>
+        <updated>20171206063626</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

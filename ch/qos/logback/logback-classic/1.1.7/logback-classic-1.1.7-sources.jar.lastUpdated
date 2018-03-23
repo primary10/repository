@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jul 31 09:25:09 CST 2017
+http\://192.168.0.87\:8081/nexus/content/groups/public/.error=Could not transfer artifact ch.qos.logback\:logback-classic\:jar\:sources\:1.1.7 from/to public (http\://192.168.0.87\:8081/nexus/content/groups/public)\: Connect to 192.168.0.87\:8081 [/192.168.0.87] failed\: \u62D2\u7EDD\u8FDE\u63A5 (Connection refused)
+@default-public-http\://192.168.0.87\:8081/nexus/content/groups/public/.lastUpdated=1501464307250
+https\://repo.maven.apache.org/maven2/.lastUpdated=1501464309135

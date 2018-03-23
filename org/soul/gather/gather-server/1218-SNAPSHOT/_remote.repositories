@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Jan 11 10:33:33 CST 2018
+gather-server-1218-SNAPSHOT-sources.jar>=
+gather-server-1218-SNAPSHOT.pom>=
+gather-server-1218-SNAPSHOT-bin.war>=
+gather-server-1218-SNAPSHOT.jar>=

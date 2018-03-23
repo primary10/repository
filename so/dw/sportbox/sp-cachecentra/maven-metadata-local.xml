@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>so.dw.sportbox</groupId>
+  <artifactId>sp-cachecentra</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+      <version>1218-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180314115510</lastUpdated>
+  </versioning>
+</metadata>

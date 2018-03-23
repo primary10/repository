@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>so.dw.sportbox</groupId>
+        <artifactId>sp-processor</artifactId>
+        <version>1104-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>cache-model</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-cache</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>so.dw.sportbox</groupId>
+            <artifactId>model-common</artifactId>
+            <version>${sp-processor.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <sourceDirectory>java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
+    </build>
+</project>

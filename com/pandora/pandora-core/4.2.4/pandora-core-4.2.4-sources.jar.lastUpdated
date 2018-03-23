@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Apr 20 21:01:06 PHT 2017
+http\://192.168.0.88\:8081/content/groups/public/.error=
+http\://192.168.0.184\:8081/nexus/content/groups/public/.lastUpdated=1490082911385
+https\://repo.maven.apache.org/maven2/.lastUpdated=1492693257075
+http\://192.168.0.88\:8081/content/groups/public/.lastUpdated=1492693266174
+http\://192.168.0.184\:8081/nexus/content/groups/public/.error=
+https\://repo.maven.apache.org/maven2/.error=

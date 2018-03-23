@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.soul</groupId>
+		<artifactId>soul</artifactId>
+		<version>1.0.7.3-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>soul-monitor</artifactId>
+	<name>soul-monitor</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.soul</groupId>
+			<artifactId>soul-commons</artifactId>
+			<version>${soul.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.soul</groupId>
+			<artifactId>soul-watcher</artifactId>
+			<version>${soul.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.soul</groupId>
+			<artifactId>soul-cache</artifactId>
+			<version>${soul.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-servlet_3.0_spec</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>

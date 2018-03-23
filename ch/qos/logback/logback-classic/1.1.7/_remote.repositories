@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Jul 31 09:25:09 CST 2017
+logback-classic-1.1.7.pom>public=
+logback-classic-1.1.7.jar>public=
+logback-classic-1.1.7-sources.jar>central=

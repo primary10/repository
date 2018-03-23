@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>so.dw.sportbox</groupId>
+    <artifactId>sp-processor</artifactId>
+    <packaging>pom</packaging>
+    <version>1104-SNAPSHOT</version>
+    <modules>
+        <module>cache-model</module>
+        <module>processor</module>
+        <module>model-common</module>
+    </modules>
+    <properties>
+        <sp-processor.version>1104-SNAPSHOT</sp-processor.version>
+        <soul.version>1.0.6.9-SNAPSHOT</soul.version>
+        <sport-base.version>1.0.0-SNAPSHOT</sport-base.version>
+        <project.build.no>0001</project.build.no>
+        <!--build号,手工修改-->
+        <project.build.ver>1.0.0</project.build.ver>
+        <!--打包版本号-->
+        <!--<project.build.name>${project.artifactId}-${project.build.ver}-${maven.build.timestamp}-b${project.build.no}-->
+        <project.build.name>${project.artifactId}</project.build.name>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.build.timestamp.format>yyMMdd</maven.build.timestamp.format>
+        <timestamp>${maven.build.timestamp}</timestamp>
+
+        <nexus.ip>192.168.0.96</nexus.ip>
+        <repository.nexus.url>http://${nexus.ip}:8081/nexus/content/groups/public</repository.nexus.url>
+        <repository.nexus.distribution.url>http://${nexus.ip}:8081/nexus/content/repositories/thirdparty</repository.nexus.distribution.url>
+        <powermock.version>1.6.5</powermock.version>
+        <junit.version>4.12</junit.version>
+        <springframework.version>4.1.5.RELEASE</springframework.version>
+        <mockito.version>2.0.2-beta</mockito.version>
+        <fastjson.version>1.2.3</fastjson.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>Public Repositories</name>
+            <url>${repository.nexus.url}</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>public</id>
+            <name>Public Repositories</name>
+            <url>${repository.nexus.url}</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <distributionManagement>
+        <repository>
+            <id>thirdparty</id>
+            <name>3th party</name>
+            <url>${repository.nexus.distribution.url}</url>
+        </repository>
+    </distributionManagement>
+    <dependencyManagement>
+        <dependencies>
+            <!--私有库 -->
+            <dependency>
+                <groupId>org.soul</groupId>
+                <artifactId>soul-commons</artifactId>
+                <version>${soul.version}</version>
+                <exclusions>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.soul</groupId>
+                <artifactId>soul-commons</artifactId>
+                <version>${soul.version}</version>
+                <classifier>sources</classifier>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.soul</groupId>
+                <artifactId>soul-iservice</artifactId>
+                <version>${soul.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.soul</groupId>
+                <artifactId>soul-service</artifactId>
+                <version>${soul.version}</version>
+            </dependency>
+
+            <!--私有库 -->
+
+            <!--公有库-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>1.8.4</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-module-junit4</artifactId>
+                <version>${powermock.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-api-mockito</artifactId>
+                <version>${powermock.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${springframework.version}</version>
+                <!--<scope>test</scope>-->
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${springframework.version}</version>
+            </dependency>
+            <!-- 临时-->
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-tx</artifactId>
+                <version>${springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.javassist</groupId>
+                <artifactId>javassist</artifactId>
+                <version>3.19.0-GA</version>
+            </dependency>
+            <!--公有库-->
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <finalName>${project.build.name}</finalName>
+        <sourceDirectory>java</sourceDirectory>
+        <testSourceDirectory>test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>test/resources</directory>
+            </testResource>
+        </testResources>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

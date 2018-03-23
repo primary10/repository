@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 21 21:26:09 CST 2018
+gather-client-1218-SNAPSHOT.jar>=
+gather-client-1218-SNAPSHOT-sources.jar>=
+gather-client-1218-SNAPSHOT-bin.war>=
+gather-client-1218-SNAPSHOT.pom>=

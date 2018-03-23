@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Oct 24 16:18:36 CST 2017
+gather-client-0908-SNAPSHOT.jar>=
+gather-client-0908-SNAPSHOT-bin.war>=
+gather-client-0908-SNAPSHOT.pom>=
+gather-client-0908-SNAPSHOT-sources.jar>=

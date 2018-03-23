@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Sep 06 20:58:48 CST 2017
+http\://192.168.0.87\:8081/nexus/content/groups/public/.error=Could not transfer artifact org.soul.gather\:gather-service\:pom\:0906-M-SNAPSHOT from/to public (http\://192.168.0.87\:8081/nexus/content/groups/public)\: Connect to 192.168.0.87\:8081 [/192.168.0.87] failed\: \u62D2\u7EDD\u8FDE\u63A5 (Connection refused)
+@default-public-http\://192.168.0.87\:8081/nexus/content/groups/public/.lastUpdated=1504702728338

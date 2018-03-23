@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 15 20:24:44 PHT 2017
+@default-public-http\://192.168.0.88\:8081/content/groups/public/.lastUpdated=1489580678147
+http\://192.168.0.88\:8081/content/groups/public/.error=Could not transfer artifact org.postgresql\:postgresql\:pom\:9.4.1211 from/to public (http\://192.168.0.88\:8081/content/groups/public)\: Connect to 192.168.0.88\:8081 [/192.168.0.88] failed\: \u62D2\u7EDD\u8FDE\u63A5
+https\://repo.maven.apache.org/maven2/.lastUpdated=1489580684501

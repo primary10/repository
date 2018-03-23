@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>soul-dubbo</artifactId>
+        <groupId>org.soul</groupId>
+        <version>1.0.6.9-SNAPSHOT</version>
+    </parent>
+    <artifactId>soul-dubbo-cache</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-dubbo-consumer</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-cache</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>

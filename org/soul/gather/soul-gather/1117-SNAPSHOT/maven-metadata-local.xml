@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.soul.gather</groupId>
+  <artifactId>soul-gather</artifactId>
+  <version>1117-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20171202025047</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1117-SNAPSHOT</value>
+        <updated>20171202025047</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

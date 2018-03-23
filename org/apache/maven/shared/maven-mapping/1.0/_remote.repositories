@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Jan 02 11:15:02 CST 2018
+maven-mapping-1.0.pom>public=
+maven-mapping-1.0.jar>public=
+maven-mapping-1.0.jar>central=
+maven-mapping-1.0.pom>central=

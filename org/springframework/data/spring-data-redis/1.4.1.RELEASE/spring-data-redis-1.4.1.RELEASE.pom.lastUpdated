@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 14 18:58:01 PHT 2017
+https\://repo.maven.apache.org/maven2/.lastUpdated=1489489081013
+http\://192.168.0.184\:8081/nexus/content/groups/public/.error=Could not transfer artifact org.springframework.data\:spring-data-redis\:pom\:1.4.1.RELEASE from/to public (http\://192.168.0.184\:8081/nexus/content/groups/public/)\: Connect to 192.168.0.184\:8081 [/192.168.0.184] failed\: \u62D2\u7EDD\u8FDE\u63A5
+@default-public-http\://192.168.0.184\:8081/nexus/content/groups/public/.lastUpdated=1489489080469

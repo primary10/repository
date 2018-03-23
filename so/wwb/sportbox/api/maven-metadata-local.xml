@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>so.wwb.sportbox</groupId>
+  <artifactId>api</artifactId>
+  <versioning>
+    <versions>
+      <version>1218-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180314115756</lastUpdated>
+  </versioning>
+</metadata>

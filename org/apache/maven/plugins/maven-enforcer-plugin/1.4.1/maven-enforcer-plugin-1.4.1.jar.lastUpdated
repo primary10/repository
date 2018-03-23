@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Apr 24 10:53:42 PHT 2017
+@default-public-http\://192.168.0.88\:8081/content/groups/public/.lastUpdated=1493002421419
+http\://192.168.0.88\:8081/content/groups/public/.error=Could not transfer artifact org.apache.maven.plugins\:maven-enforcer-plugin\:jar\:1.4.1 from/to public (http\://192.168.0.88\:8081/content/groups/public/)\: \u6CA1\u6709\u5230\u4E3B\u673A\u7684\u8DEF\u7531
+https\://repo.maven.apache.org/maven2/.lastUpdated=1493002422051

@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>sportbox</artifactId>
+        <groupId>so.wwb.sportbox</groupId>
+        <version>1218-SNAPSHOT</version>
+    </parent>
+    <artifactId>iservice</artifactId>
+    <packaging>jar</packaging>
+    <name>iservice</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>so.wwb.sportbox</groupId>
+            <artifactId>model</artifactId>
+            <version>${sportbox.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sport.gather</groupId>
+            <artifactId>gather-model</artifactId>
+            <version>${soul-gather.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.soul</groupId>
+            <artifactId>soul-iservice</artifactId>
+            <version>${soul.version}</version>
+        </dependency>
+
+
+       <!-- <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
+        </dependency>-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>4.1.5.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.2-1003-jdbc3</version>
+        </dependency>
+        <!--quartz end -->
+    </dependencies>
+
+    <build>
+        <sourceDirectory>java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>

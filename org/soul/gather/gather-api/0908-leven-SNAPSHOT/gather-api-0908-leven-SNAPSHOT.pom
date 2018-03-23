@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>soul-gather</artifactId>
+        <groupId>org.soul.gather</groupId>
+        <version>0908-leven-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.soul.gather</groupId>
+    <artifactId>gather-api</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.soul.gather</groupId>
+            <artifactId>gather-model</artifactId>
+            <version>${soul-gather.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <sourceDirectory>java</sourceDirectory>
+        <testSourceDirectory>test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>test/resources</directory>
+            </testResource>
+            <testResource>
+                <targetPath>conf</targetPath>
+                <directory>${basedir}/../config/</directory>
+            </testResource>
+        </testResources>
+        <resources>
+            <resource>
+                <directory>resources</directory>
+                <excludes>
+                    <exclude>logback.xml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        <!--
+        <resources>
+            <resource>
+                <directory>resources</directory>
+            </resource>
+            <resource>
+                <targetPath>conf</targetPath>
+                <directory>${basedir}/../config/${profile.env}/</directory>
+            </resource>
+        </resources>
+        -->
+    </build>
+</project>

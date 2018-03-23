@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sport.gather</groupId>
+  <artifactId>gather-client</artifactId>
+  <versioning>
+    <versions>
+      <version>1218-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180321132609</lastUpdated>
+  </versioning>
+</metadata>

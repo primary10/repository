@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Dec 13 19:01:11 CST 2017
+@default-public-http\://192.168.0.88\:8081/nexus/content/groups/public/.lastUpdated=1513162868991
+https\://repo.maven.apache.org/maven2/.lastUpdated=1513162871096
+http\://192.168.0.88\:8081/nexus/content/groups/public/.error=Could not transfer artifact org.apache.commons\:commons-pool2\:jar\:sources\:2.4.2 from/to public (http\://192.168.0.88\:8081/nexus/content/groups/public)\: No route to host (Host unreachable)

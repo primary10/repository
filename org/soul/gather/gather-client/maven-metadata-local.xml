@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.soul.gather</groupId>
+  <artifactId>gather-client</artifactId>
+  <versioning>
+    <versions>
+      <version>0908-SNAPSHOT</version>
+      <version>1218-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180111023329</lastUpdated>
+  </versioning>
+</metadata>

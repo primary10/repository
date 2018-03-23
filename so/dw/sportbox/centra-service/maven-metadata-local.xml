@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>so.dw.sportbox</groupId>
+  <artifactId>centra-service</artifactId>
+  <versioning>
+    <versions>
+      <version>1218-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180314115533</lastUpdated>
+  </versioning>
+</metadata>

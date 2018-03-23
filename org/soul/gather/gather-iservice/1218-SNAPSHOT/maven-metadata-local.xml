@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.soul.gather</groupId>
+  <artifactId>gather-iservice</artifactId>
+  <version>1218-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20180111023330</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1218-SNAPSHOT</value>
+        <updated>20180111023330</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1218-SNAPSHOT</value>
+        <updated>20180111023330</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1218-SNAPSHOT</value>
+        <updated>20180111023330</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
